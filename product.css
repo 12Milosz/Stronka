@@ -1,0 +1,38 @@
+div.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+div.product {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  width: 250px;
+  height: 350px;
+}
+
+div.product > img {
+}
+
+div.details {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  /* align-self: flex-end; */
+  align-items: center;
+  justify-content: center;
+}
+
+div.details > h2 {
+  color: var(--LightYellow);
+  display: flex;
+}
+
+div.details > p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.details > h1 {
+  color: var(--DarkYellow);
+}
