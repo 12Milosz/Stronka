@@ -1,0 +1,32 @@
+div.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+div.bar > button {
+  height: 40px;
+  width: 40px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+div.bar > p {
+}
+div.tak {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+div.bar > input {
+  background-color: #d9d9d9;
+  width: 200xpx;
+  height: 35px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  font-size: 12px;
+  padding-left: 10px;
+}
