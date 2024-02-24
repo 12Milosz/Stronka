@@ -8,3 +8,14 @@
   /* Font Variables */
   /* In Process Still Thinking... */
 }
+
+body {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  
+  /* background-color: white; */
+}
+
+main {
+  /* margin: 2%; */
+}
